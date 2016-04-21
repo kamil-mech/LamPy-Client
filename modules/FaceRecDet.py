@@ -73,6 +73,9 @@ def init(self):
   self.registerOutput("faceDet", Obj("Face", False))
   self.registerOutput("faceRec", Obj("Subject", 0))
   #self.registerOutput("Servo", Obj("ServoX", 0,"ServoY", 0))
+
+  ## only testing not in use later
+  self.registerOutput("colourDTC", Obj("R",0,"G",0,"B",0,"NewColor",True,"Working", False))
   
 def run (self):
 

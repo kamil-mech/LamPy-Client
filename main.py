@@ -30,6 +30,7 @@ for arg in sys.argv[1:]: #skips first which is main.py
     else:
         current[arg] = True
         
+sys.argv = ["main.py"]
 
 threads = {}
 comms = Obj()

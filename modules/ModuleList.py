@@ -10,7 +10,10 @@ Obj = DynamicObjectV2.Class
 fromSource = [
     "FaceRecDet",
     "Servo",
-    "SerialClient"   
+    #"ColorDTC"
+    "NeoPixle",
+    "kivy2",
+    "SerialClient"
 ]
 
 fromClass = [
